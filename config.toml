@@ -1,0 +1,292 @@
+# Page settings
+
+baseURL = "https://dimassetiyadi.tech/"
+languageCode = "en"
+title = "Portofolio"
+theme = "devresume"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+[params]
+    author = "Santricyber"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "DIMAS SETIYADI, A.Md.T., S.Kom."
+        tagline = "Backend Engineer & Tech Enthusiast"
+        avatar = "avatars.png"
+
+    [params.contact]
+        enable = true
+        location = "Depok, Jawa Barat"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0813-1197-7026"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "dimas@santricyber.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.santricyber.com"
+        text = "www.santricyber.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Flutter, Hugo Static(framework)"
+        [[params.skills.list.items]]
+        details = "Ubuntu Server, Xampp"
+        [[params.skills.list.items]]
+        details = "Netlify, VMware vSphere"
+        [[params.skills.list.items]]
+        details = "GIT, SEO specialist"
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+        [[params.skills.list.items]]
+        details = ""
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Instructor in Indonesia Special Police Force [KORPS BRIMOB]"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = ""
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "A.Md.T in Computer Engineering"
+        university = "University Bina Sarana Informatika"
+        dates = "2018 - 2021"
+        [[params.education.list]]
+        degree = "S.Kom in Informatics Engineering"
+        university = "University Nusa Mandiri"
+        dates = "2021 - 2022"
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Indonesia"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "English"
+        level = "Medium"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Cyber Security"
+        [[params.interests.list]]
+        name = "Jogging"
+        [[params.interests.list]]
+        name = "Adventure"
+        [[params.interests.list]]
+        name = "Scientific Papers"
+        [[params.interests.list]]
+        name = "Books"
+        [[params.interests.list]]
+        name = "Movie"
+        [[params.interests.list]]
+        name = "Cooking"
+
+
+    [params.summary]
+        enable = true
+        text = "Hello, my name is DIMAS SETIYADI, and I graduated with a Diploma and Bachelor’s degree from the Faculty Computer Engineering University of Bina Sarana Informatika and the Faculty Informatics Engineering University of Nusa Mandiri. I like to write, what I write here things related to self-development, code programs, and Technology, I like the command line, Free Open Source Software, Linux, etc."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Special Police Force Instructor"
+        dates = "2020 - 2023"
+        company = "KORPS BRIMOB"
+        details = "I have more than 2 years of experience providing learning material to participants who will carry out assignment missions in the field I teach :"
+        [[params.experience.list.items]]
+        details = "Internet Networking Instructor"
+        [[params.experience.list.items]]
+        details = "GPS Tracker Instructor"
+        [[params.experience.list.items]]
+        details = "Radio Comunication Instructor"
+
+        [[params.experience.list]]
+        title = "Web Developer"
+        dates = "2023 "
+        company = "PetaniBangkit.com"
+        details = "Create and develop www.PetaniBangkit.com a business produced by local Indonesian farmers by creating a website service as a place to connect ''PetaniBangkit'' as the main supplier and drop shippers, in the future, the system will be built with various services that will make the transaction process more accessible by utilizing static website technology"
+
+        [[params.experience.list]]
+        title = "Content Writer"
+        dates = "2022 - 2023"
+        company = "SantriCyber"
+        details = "We are actively writing and publishing articles on personal sites www.santricyber.com regarding technology-related matters in static websites, security systems, and self-development."
+
+        [[params.experience.list]]
+        title = "Staff Subbid Yankom "
+        dates = "2020 - 2023"
+        company = "BID TIK KORPS BRIMOB"
+        details = "As staff in the ‘’Sub Bidang Pelayanan Komunikasi’’ in BID TIK KORPS BRIMOB POLRI "
+
+        [[params.experience.list]]
+        title = "Staff Subbid Tekinfo"
+        dates = "2018 - 2020"
+        company = "BID TIK KORPS BRIMOB"
+        details = "As staff in the ''Sub Bidang Pengkajian Sistem'' in BID TIK KORPS BRIMOB POLRI "
+
+        
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "- Senstar Fiber Patrol server optic sensor (batch 1 Malaysia)"
+        meta = "2018"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Centralized Anti Virus and log Security Storage"
+        meta = "2018"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Qualified to Operation GR-Light Fixed Wing UAS (Drone)"
+        meta = "2018"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Senstar Fiber Patrol server optic sensor (batch 2 Jakarta)"
+        meta = "2019"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Private Cloud System"
+        meta = "2019"
+        tagline = ""
+        
+        [[params.projects.list]]
+        title = "- Dell EMC VXRAIL SERVER Basic Operation"
+        meta = "2019"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Digital forensics"
+        meta = "2019"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Cisco Secure Service Coverage (Cisco SSC)"
+        meta = "2020"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Multimedia Cisco Video Conference"
+        meta = "2021"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Broadcast information & Whatsapp Blast System"
+        meta = "2023"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Digital Forensics Batch I"
+        meta = "2023"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Hacking with Interception Tools"
+        meta = "2023"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "- Digital forensics Investigation Batch II"
+        meta = "2023"
+        tagline = ""
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "- Police Trainer certified (BNSP)"
+
+        [[params.information.list]]
+        title = "- DevNet certified (Cisco Networking Academy)"
+
+        [[params.information.list]]
+        title = "- CCNA R&S certified (Cisco Networking Academy)"
+
+
+
+        [[params.information.list.items]]
+        details = ""
+        [[params.information.list.items]]
+        details = ""
+
+        [[params.information.list]]
+        title = ""
+        details = ""
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/kodebaper"
+        title = "dimas setiyadi"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/dimas-setiyadi/"
+        title = "dimas setiyadi"
+        [[params.social.list]]
+        icon = "fab fa-instagram"
+        url = "https://www.instagram.com/santricyber/"
+        title = "SantriCyber"
+
+
+
+
+
