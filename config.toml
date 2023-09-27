@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://dimassetiyadi.tech/"
+baseURL = "https://kodebaper.github.io/portofolio/"
 languageCode = "en"
 title = "Portofolio"
 theme = "devresume"
