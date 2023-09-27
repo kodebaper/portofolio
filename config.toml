@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://kodebaper.github.io/portofolio/"
+baseURL = "https://dimassetiyadi.netlify.app/"
 languageCode = "en"
 title = "Portofolio"
 theme = "devresume"
